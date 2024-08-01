@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fan roate</title>
+    <style>
+        #kamal:checked~img{
+            transform: rotate(360deg); 
+            color: aqua;
+            background-color: blueviolet;
+        }
+        
+        img{
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+           }
+
+         input{
+            width: 100px;
+            height: 100px;
+         }  
+
+    </style>
+</head>
+<body bgcolor="yellow">
+     <input type="radio" id="kamal" name="kkk">
+    <img src="https://www.svgrepo.com/show/503335/fan.svg" height="100%"></img>
+</body>
+</html>
